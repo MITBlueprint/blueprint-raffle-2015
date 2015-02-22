@@ -1,0 +1,28 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: white; }
+
+body
+{
+  background: linear-gradient(rgba(0, 136, 255, 0.85), rgba(0, 84, 165, 0.85)), url("/images/background.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+h1
+{
+  display: block;
+  margin-top: 5%;
+  width: 100%;
+  color: white;
+  font-family: "Rokkitt";
+}
+
+img {
+  margin-top: 10%;
+  width: 4em;
+}

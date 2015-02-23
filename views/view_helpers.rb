@@ -6,7 +6,7 @@
 module ViewHelpers
 
   def random_name
-    File.readlines('names.txt').sample
+    File.readlines('names.txt').sample.strip
   end
 
 end
